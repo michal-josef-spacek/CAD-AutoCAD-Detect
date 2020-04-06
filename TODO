@@ -2,8 +2,9 @@ TODO
 ====
 1. Pridat DXF podporu
 2. Pridat dalsi AutoCAD soubory
-3. Testy pro detect_dwg_file(). 
 4.
 
 Applied
 =======
+3. Testy pro detect_dwg_file(). 
+OK [20200406] skim
