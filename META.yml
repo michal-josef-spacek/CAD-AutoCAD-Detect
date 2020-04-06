@@ -21,6 +21,7 @@ meta-spec:
 name: CAD-AutoCAD-Detect
 no_index:
   directory:
+    - examples
     - inc
     - t
     - xt
