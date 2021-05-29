@@ -12,7 +12,7 @@ use Readonly;
 # Constants.
 Readonly::Array our @EXPORT => qw(detect_dwg_file);
 
-our $VERSION = 0.03;
+our $VERSION = 0.04;
 
 # Detect DWG file.
 sub detect_dwg_file {
@@ -163,6 +163,6 @@ BSD 2-Clause License
 
 =head1 VERSION
 
-0.03
+0.04
 
 =cut
