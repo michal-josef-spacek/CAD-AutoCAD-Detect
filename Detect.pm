@@ -108,7 +108,7 @@ Returns magic string or undef.
  }
 
  # Output like:
- # File '%s' isn't DWG file.
+ # File '%s' is DWG file.
 
 =head1 EXAMPLE2
 

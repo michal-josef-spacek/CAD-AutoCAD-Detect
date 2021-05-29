@@ -55,7 +55,7 @@ EXAMPLE1
      }
 
      # Output like:
-     # File '%s' isn't DWG file.
+     # File '%s' is DWG file.
 
 EXAMPLE2
      use strict;

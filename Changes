@@ -1,4 +1,5 @@
 0.03
+ - Fix output of example in doc.
 
 0.02 2020-05-21T01:07:03+02:00
  - Rewrite api of detect_dwg_file() to return magic string.
