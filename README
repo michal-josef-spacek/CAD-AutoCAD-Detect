@@ -84,7 +84,7 @@ EXAMPLE2
      # Usage: detect-dwg-file file
 
 DEPENDENCIES
-    CAD::AutoCAD::Version, Error::Pure, Exporter, List::MoreUtils, Readonly.
+    CAD::AutoCAD::Version, Error::Pure, Exporter, List::Util, Readonly.
 
 REPOSITORY
     <https://github.com/michal-josef-spacek/CAD-AutoCAD-Detect>

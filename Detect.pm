@@ -6,7 +6,7 @@ use warnings;
 
 use CAD::AutoCAD::Version;
 use Error::Pure qw(err);
-use List::MoreUtils qw(any);
+use List::Util 1.33 qw(any);
 use Readonly;
 
 # Constants.
@@ -142,7 +142,7 @@ Returns magic string or undef.
 L<CAD::AutoCAD::Version>,
 L<Error::Pure>,
 L<Exporter>,
-L<List::MoreUtils>,
+L<List::Util>,
 L<Readonly>.
 
 =head1 REPOSITORY

@@ -27,7 +27,7 @@ no_index:
     - xt
 requires:
   CAD::AutoCAD::Version: 0
-  List::MoreUtils: 0
+  List::Util: 1.33
   Readonly: 0
   perl: 5.8.0
 resources:
