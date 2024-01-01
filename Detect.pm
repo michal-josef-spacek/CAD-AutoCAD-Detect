@@ -78,6 +78,8 @@ Returns magic string or undef.
 
 =head1 EXAMPLE1
 
+=for comment filename=detect_dwg_file_fake.pl
+
  use strict;
  use warnings;
 
@@ -111,6 +113,8 @@ Returns magic string or undef.
  # File '%s' is DWG file.
 
 =head1 EXAMPLE2
+
+=for comment filename=detect_dwg_file.pl
 
  use strict;
  use warnings;
