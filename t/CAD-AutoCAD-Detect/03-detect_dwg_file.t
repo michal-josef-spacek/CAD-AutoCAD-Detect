@@ -5,7 +5,7 @@ use CAD::AutoCAD::Detect qw(detect_dwg_file);
 use English;
 use Error::Pure::Utils qw(clean);
 use File::Object;
-use Test::More 'tests' => 6;
+use Test::More 'tests' => 7;
 use Test::NoWarnings;
 
 # Data directory.
@@ -26,6 +26,10 @@ is($ret, 'AC1003', 'AC1003 DWG file.');
 # Test.
 $ret = detect_dwg_file($data_dir->file('fake.dwg')->s);
 is($ret, undef, 'Fake DWG file.');
+
+# Test.
+$ret = detect_dwg_file($data_dir->file('fake2.dwg')->s);
+is($ret, undef, 'Fake DWG file (fake2.dwg).');
 
 # Test.
 eval {
