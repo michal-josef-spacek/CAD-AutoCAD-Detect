@@ -1,5 +1,6 @@
 0.04
  - Update Module::Install to 1.21 version.
+ - Update copyright years.
 
 0.03 2021-05-29T17:37:17+02:00
  - Fix output of example in doc.
