@@ -21,8 +21,7 @@ requires 'Readonly' => 0;
 requires 'perl' => '5.8.0';
 readme_from 'Detect.pm';
 recursive_author_tests('xt');
-resources 'bugtracker' => 'https://rt.cpan.org/Public/Dist/Display.html'.
-	'?Name=CAD-AutoCAD-Detect';
+resources 'bugtracker' => 'https://github.com/michal-josef-spacek/CAD-AutoCAD-Detect/issues';
 resources 'homepage' => 'https://github.com/michal-josef-spacek/CAD-AutoCAD-Detect';
 resources 'repository' => 'git://github.com/michal-josef-spacek/CAD-AutoCAD-Detect';
 test_requires 'English' => 0;
