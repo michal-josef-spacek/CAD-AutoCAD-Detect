@@ -1,5 +1,6 @@
 0.04
  - Add test for improving of coverage.
+ - Improve test message.
  - Move bugtracker to github.
  - Rewrite from List::MoreUtils to List::Util.
  - Update Module::Install to 1.21 version.

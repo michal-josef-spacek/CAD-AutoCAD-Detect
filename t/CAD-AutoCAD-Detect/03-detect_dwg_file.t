@@ -25,7 +25,7 @@ is($ret, 'AC1003', 'AC1003 DWG file.');
 
 # Test.
 $ret = detect_dwg_file($data_dir->file('fake.dwg')->s);
-is($ret, undef, 'Fake DWG file.');
+is($ret, undef, 'Fake DWG file (fake.dwg).');
 
 # Test.
 $ret = detect_dwg_file($data_dir->file('fake2.dwg')->s);
