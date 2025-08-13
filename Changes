@@ -1,4 +1,5 @@
 0.05
+ - Fix dependencies.
  - Rename file examples to better names.
  - Rewrite list of magic strings to CAD::Format::DWG::Version.
  - Update copyright years.
