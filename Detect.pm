@@ -4,7 +4,7 @@ use base qw(Exporter);
 use strict;
 use warnings;
 
-use CAD::AutoCAD::Version;
+use CAD::Format::DWG::Version;
 use Error::Pure qw(err);
 use List::Util 1.33 qw(any);
 use Readonly;
@@ -28,7 +28,7 @@ sub detect_dwg_file {
 	$magic =~ s/\x00$//;
 
 	if ($read == 6 && (any { $_ eq $magic }
-		CAD::AutoCAD::Version->list_of_acad_identifiers)) {
+		CAD::Format::DWG::Version->list_of_dwg_identifiers)) {
 
 		return $magic;
 	} else {
@@ -143,7 +143,7 @@ Returns magic string or undef.
 
 =head1 DEPENDENCIES
 
-L<CAD::AutoCAD::Version>,
+L<CAD::Format::DWG::Version>,
 L<Error::Pure>,
 L<Exporter>,
 L<List::Util>,
