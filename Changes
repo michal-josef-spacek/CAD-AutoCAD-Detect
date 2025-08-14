@@ -1,4 +1,4 @@
-0.05
+0.05 2025-08-14T15:56:14+02:00
  - Fix dependencies.
  - Rename file examples to better names.
  - Rewrite list of magic strings to CAD::Format::DWG::Version.
